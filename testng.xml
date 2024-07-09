@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+	  <classes>
+		  <class name="mytest.Program1"></class>
+		  <class name="mytest.Program2"></class>
+		  <class name="mytest.Program3"></class>
+		  <class name="mytest.Program4"></class>
+		  <class name="mytest.Program5"></class>
+		  <class name="mytest.Program6"></class>
+		  <class name="mytest.Program7"></class>
+		  <class name="mytest.Program8"></class>
+		  <class name="mytest.Program9"></class>
+		  <class name="mytest.Program10"></class>
+		   <class name="mytest.Program11"></class>
+		    <class name="mytest.Program12"></class>
+	  </classes>	  	  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

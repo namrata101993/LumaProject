@@ -1,0 +1,320 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>48/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 08 22:21:22 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>266 seconds (266343 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='mytest.Program4.loginwithvalidcredential()'><b>loginwithvalidcredential</b><br>Test class: mytest.Program4</td>
+<td></td>
+<td>6</td>
+<td>mytest.Program4@4d1c00d0</td></tr>
+<tr>
+<td title='mytest.Program9.forgotpassword()'><b>forgotpassword</b><br>Test class: mytest.Program9</td>
+<td></td>
+<td>7</td>
+<td>mytest.Program9@302552ec</td></tr>
+<tr>
+<td title='mytest.Program10.searchbox()'><b>searchbox</b><br>Test class: mytest.Program10</td>
+<td></td>
+<td>1</td>
+<td>mytest.Program10@3d285d7e</td></tr>
+<tr>
+<td title='mytest.Program5.loginwithinvalidcredential()'><b>loginwithinvalidcredential</b><br>Test class: mytest.Program5</td>
+<td></td>
+<td>8</td>
+<td>mytest.Program5@4b2bac3f</td></tr>
+<tr>
+<td title='mytest.Program3.loginwithvalidcredential()'><b>loginwithvalidcredential</b><br>Test class: mytest.Program3</td>
+<td></td>
+<td>5</td>
+<td>mytest.Program3@79079097</td></tr>
+<tr>
+<td title='mytest.Program2.loginwithinvalidcredential()'><b>loginwithinvalidcredential</b><br>Test class: mytest.Program2</td>
+<td></td>
+<td>7</td>
+<td>mytest.Program2@3bf7ca37</td></tr>
+<tr>
+<td title='mytest.Program8.openBrowser()'><b>openBrowser</b><br>Test class: mytest.Program8</td>
+<td></td>
+<td>1</td>
+<td>mytest.Program8@26794848</td></tr>
+<tr>
+<td title='mytest.Program5.placeorder()'><b>placeorder</b><br>Test class: mytest.Program5</td>
+<td></td>
+<td>3</td>
+<td>mytest.Program5@4b2bac3f</td></tr>
+<tr>
+<td title='mytest.Program2.loginwithvalidcredential()'><b>loginwithvalidcredential</b><br>Test class: mytest.Program2</td>
+<td></td>
+<td>5</td>
+<td>mytest.Program2@3bf7ca37</td></tr>
+<tr>
+<td title='mytest.Program4.loginwithinvalidcredential()'><b>loginwithinvalidcredential</b><br>Test class: mytest.Program4</td>
+<td></td>
+<td>8</td>
+<td>mytest.Program4@4d1c00d0</td></tr>
+<tr>
+<td title='mytest.Program5.verifyTitle()'><b>verifyTitle</b><br>Test class: mytest.Program5</td>
+<td></td>
+<td>0</td>
+<td>mytest.Program5@4b2bac3f</td></tr>
+<tr>
+<td title='mytest.Program3.scrolldown()'><b>scrolldown</b><br>Test class: mytest.Program3</td>
+<td></td>
+<td>2</td>
+<td>mytest.Program3@79079097</td></tr>
+<tr>
+<td title='mytest.Program1.verifyTitle()'><b>verifyTitle</b><br>Test class: mytest.Program1</td>
+<td></td>
+<td>0</td>
+<td>mytest.Program1@15de0b3c</td></tr>
+<tr>
+<td title='mytest.Program5.selectproduct()'><b>selectproduct</b><br>Test class: mytest.Program5</td>
+<td></td>
+<td>1</td>
+<td>mytest.Program5@4b2bac3f</td></tr>
+<tr>
+<td title='mytest.Program5.searchproduct()'><b>searchproduct</b><br>Test class: mytest.Program5</td>
+<td></td>
+<td>1</td>
+<td>mytest.Program5@4b2bac3f</td></tr>
+<tr>
+<td title='mytest.Program5.proceedtopayment()'><b>proceedtopayment</b><br>Test class: mytest.Program5</td>
+<td></td>
+<td>11</td>
+<td>mytest.Program5@4b2bac3f</td></tr>
+<tr>
+<td title='mytest.Program2.verifyTitle()'><b>verifyTitle</b><br>Test class: mytest.Program2</td>
+<td></td>
+<td>0</td>
+<td>mytest.Program2@3bf7ca37</td></tr>
+<tr>
+<td title='mytest.Program3.loginwithinvalidcredential()'><b>loginwithinvalidcredential</b><br>Test class: mytest.Program3</td>
+<td></td>
+<td>8</td>
+<td>mytest.Program3@79079097</td></tr>
+<tr>
+<td title='mytest.Program3.selectproduct()'><b>selectproduct</b><br>Test class: mytest.Program3</td>
+<td></td>
+<td>1</td>
+<td>mytest.Program3@79079097</td></tr>
+<tr>
+<td title='mytest.Program9.verifyTitle()'><b>verifyTitle</b><br>Test class: mytest.Program9</td>
+<td></td>
+<td>0</td>
+<td>mytest.Program9@302552ec</td></tr>
+<tr>
+<td title='mytest.Program11.loginwithinvalidcredential()'><b>loginwithinvalidcredential</b><br>Test class: mytest.Program11</td>
+<td></td>
+<td>8</td>
+<td>mytest.Program11@40005471</td></tr>
+<tr>
+<td title='mytest.Program11.verifyTitle()'><b>verifyTitle</b><br>Test class: mytest.Program11</td>
+<td></td>
+<td>0</td>
+<td>mytest.Program11@40005471</td></tr>
+<tr>
+<td title='mytest.Program4.verifyTitle()'><b>verifyTitle</b><br>Test class: mytest.Program4</td>
+<td></td>
+<td>0</td>
+<td>mytest.Program4@4d1c00d0</td></tr>
+<tr>
+<td title='mytest.Program10.verifysortdropdown()'><b>verifysortdropdown</b><br>Test class: mytest.Program10</td>
+<td></td>
+<td>0</td>
+<td>mytest.Program10@3d285d7e</td></tr>
+<tr>
+<td title='mytest.Program8.searchshirt()'><b>searchshirt</b><br>Test class: mytest.Program8<br>Parameters: tops, bottoms</td>
+<td></td>
+<td>5</td>
+<td>mytest.Program8@26794848</td></tr>
+<tr>
+<td title='mytest.Program5.proceedtocheckout()'><b>proceedtocheckout</b><br>Test class: mytest.Program5</td>
+<td></td>
+<td>6</td>
+<td>mytest.Program5@4b2bac3f</td></tr>
+<tr>
+<td title='mytest.Program7.checklogin_validation()'><b>checklogin_validation</b><br>Test class: mytest.Program7</td>
+<td></td>
+<td>1</td>
+<td>mytest.Program7@bcec361</td></tr>
+<tr>
+<td title='mytest.Program3.verifyTitle()'><b>verifyTitle</b><br>Test class: mytest.Program3</td>
+<td></td>
+<td>0</td>
+<td>mytest.Program3@79079097</td></tr>
+<tr>
+<td title='mytest.Program5.loginwithvalidcredential()'><b>loginwithvalidcredential</b><br>Test class: mytest.Program5</td>
+<td></td>
+<td>5</td>
+<td>mytest.Program5@4b2bac3f</td></tr>
+<tr>
+<td title='mytest.Program11.loginwithvalidcredential()'><b>loginwithvalidcredential</b><br>Test class: mytest.Program11</td>
+<td></td>
+<td>5</td>
+<td>mytest.Program11@40005471</td></tr>
+<tr>
+<td title='mytest.Program4.proceedtocheckout()'><b>proceedtocheckout</b><br>Test class: mytest.Program4</td>
+<td></td>
+<td>6</td>
+<td>mytest.Program4@4d1c00d0</td></tr>
+<tr>
+<td title='mytest.Program6.totallinksinhomepage()'><b>totallinksinhomepage</b><br>Test class: mytest.Program6</td>
+<td></td>
+<td>1</td>
+<td>mytest.Program6@4e08711f</td></tr>
+<tr>
+<td title='mytest.Program3.searchproduct()'><b>searchproduct</b><br>Test class: mytest.Program3</td>
+<td></td>
+<td>2</td>
+<td>mytest.Program3@79079097</td></tr>
+<tr>
+<td title='mytest.Program4.selectproduct()'><b>selectproduct</b><br>Test class: mytest.Program4</td>
+<td></td>
+<td>1</td>
+<td>mytest.Program4@4d1c00d0</td></tr>
+<tr>
+<td title='mytest.Program5.scrolldown()'><b>scrolldown</b><br>Test class: mytest.Program5</td>
+<td></td>
+<td>2</td>
+<td>mytest.Program5@4b2bac3f</td></tr>
+<tr>
+<td title='mytest.Program5.addtocart()'><b>addtocart</b><br>Test class: mytest.Program5</td>
+<td></td>
+<td>4</td>
+<td>mytest.Program5@4b2bac3f</td></tr>
+<tr>
+<td title='mytest.Program8.searchshirt()'><b>searchshirt</b><br>Test class: mytest.Program8<br>Parameters: Tees, Jackets</td>
+<td></td>
+<td>2</td>
+<td>mytest.Program8@26794848</td></tr>
+<tr>
+<td title='mytest.Program4.scrolldown()'><b>scrolldown</b><br>Test class: mytest.Program4</td>
+<td></td>
+<td>2</td>
+<td>mytest.Program4@4d1c00d0</td></tr>
+<tr>
+<td title='mytest.Program10.verifyTitle()'><b>verifyTitle</b><br>Test class: mytest.Program10</td>
+<td></td>
+<td>0</td>
+<td>mytest.Program10@3d285d7e</td></tr>
+<tr>
+<td title='mytest.Program12.verifyTitle()'><b>verifyTitle</b><br>Test class: mytest.Program12</td>
+<td></td>
+<td>0</td>
+<td>mytest.Program12@2cd76f31</td></tr>
+<tr>
+<td title='mytest.Program8.searchshirt()'><b>searchshirt</b><br>Test class: mytest.Program8<br>Parameters: null, null</td>
+<td></td>
+<td>2</td>
+<td>mytest.Program8@26794848</td></tr>
+<tr>
+<td title='mytest.Program12.removeitemfromcart()'><b>removeitemfromcart</b><br>Test class: mytest.Program12</td>
+<td></td>
+<td>11</td>
+<td>mytest.Program12@2cd76f31</td></tr>
+<tr>
+<td title='mytest.Program4.searchproduct()'><b>searchproduct</b><br>Test class: mytest.Program4</td>
+<td></td>
+<td>2</td>
+<td>mytest.Program4@4d1c00d0</td></tr>
+<tr>
+<td title='mytest.Program7.verifyTitle()'><b>verifyTitle</b><br>Test class: mytest.Program7</td>
+<td></td>
+<td>0</td>
+<td>mytest.Program7@bcec361</td></tr>
+<tr>
+<td title='mytest.Program10.verifyreviewform()'><b>verifyreviewform</b><br>Test class: mytest.Program10</td>
+<td></td>
+<td>5</td>
+<td>mytest.Program10@3d285d7e</td></tr>
+<tr>
+<td title='mytest.Program11.addtowishlist()'><b>addtowishlist</b><br>Test class: mytest.Program11</td>
+<td></td>
+<td>12</td>
+<td>mytest.Program11@40005471</td></tr>
+<tr>
+<td title='mytest.Program4.addtocart()'><b>addtocart</b><br>Test class: mytest.Program4</td>
+<td></td>
+<td>4</td>
+<td>mytest.Program4@4d1c00d0</td></tr>
+<tr>
+<td title='mytest.Program6.verifyTitle()'><b>verifyTitle</b><br>Test class: mytest.Program6</td>
+<td></td>
+<td>0</td>
+<td>mytest.Program6@4e08711f</td></tr>
+</table><p>
+</body>
+</html>

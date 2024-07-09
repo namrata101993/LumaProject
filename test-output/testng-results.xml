@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="48" passed="48" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-08T22:21:22 IST" name="Suite" finished-at="2024-07-08T22:25:48 IST" duration-ms="266343">
+    <groups>
+    </groups>
+    <test started-at="2024-07-08T22:21:22 IST" name="Test" finished-at="2024-07-08T22:25:48 IST" duration-ms="266343">
+      <class name="mytest.Program12">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytest.Program12@2cd76f31]" started-at="2024-07-08T22:25:32 IST" name="setUp" finished-at="2024-07-08T22:25:36 IST" duration-ms="4501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:-1, instance:mytest.Program12@2cd76f31]" started-at="2024-07-08T22:25:36 IST" name="verifyTitle" finished-at="2024-07-08T22:25:36 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="removeitemfromcart()[pri:3, instance:mytest.Program12@2cd76f31]" started-at="2024-07-08T22:25:36 IST" name="removeitemfromcart" finished-at="2024-07-08T22:25:48 IST" duration-ms="11508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeitemfromcart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.Program12@2cd76f31]" started-at="2024-07-08T22:25:48 IST" name="tearDown" finished-at="2024-07-08T22:25:48 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.Program12 -->
+      <class name="mytest.Program8">
+        <test-method signature="openBrowser()[pri:0, instance:mytest.Program8@26794848]" started-at="2024-07-08T22:24:16 IST" name="openBrowser" finished-at="2024-07-08T22:24:18 IST" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="searchshirt(java.lang.String,java.lang.String)[pri:0, instance:mytest.Program8@26794848]" started-at="2024-07-08T22:24:18 IST" name="searchshirt" data-provider="shirt" finished-at="2024-07-08T22:24:23 IST" duration-ms="5662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tops]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bottoms]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchshirt -->
+        <test-method signature="searchshirt(java.lang.String,java.lang.String)[pri:0, instance:mytest.Program8@26794848]" started-at="2024-07-08T22:24:23 IST" name="searchshirt" data-provider="shirt" finished-at="2024-07-08T22:24:26 IST" duration-ms="2268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tees]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jackets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchshirt -->
+        <test-method signature="searchshirt(java.lang.String,java.lang.String)[pri:0, instance:mytest.Program8@26794848]" started-at="2024-07-08T22:24:26 IST" name="searchshirt" data-provider="shirt" finished-at="2024-07-08T22:24:28 IST" duration-ms="2168" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchshirt -->
+      </class> <!-- mytest.Program8 -->
+      <class name="mytest.Program11">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytest.Program11@40005471]" started-at="2024-07-08T22:24:57 IST" name="setUp" finished-at="2024-07-08T22:25:05 IST" duration-ms="7954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:-1, instance:mytest.Program11@40005471]" started-at="2024-07-08T22:25:05 IST" name="verifyTitle" finished-at="2024-07-08T22:25:05 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="loginwithinvalidcredential()[pri:1, instance:mytest.Program11@40005471]" started-at="2024-07-08T22:25:05 IST" name="loginwithinvalidcredential" finished-at="2024-07-08T22:25:14 IST" duration-ms="8352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidcredential -->
+        <test-method signature="loginwithvalidcredential()[pri:2, instance:mytest.Program11@40005471]" started-at="2024-07-08T22:25:14 IST" name="loginwithvalidcredential" finished-at="2024-07-08T22:25:19 IST" duration-ms="5519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcredential -->
+        <test-method signature="addtowishlist()[pri:3, instance:mytest.Program11@40005471]" started-at="2024-07-08T22:25:19 IST" name="addtowishlist" finished-at="2024-07-08T22:25:31 IST" duration-ms="12290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtowishlist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.Program11@40005471]" started-at="2024-07-08T22:25:31 IST" name="tearDown" finished-at="2024-07-08T22:25:32 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.Program11 -->
+      <class name="mytest.Program9">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytest.Program9@302552ec]" started-at="2024-07-08T22:24:28 IST" name="setUp" finished-at="2024-07-08T22:24:36 IST" duration-ms="7922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:-1, instance:mytest.Program9@302552ec]" started-at="2024-07-08T22:24:36 IST" name="verifyTitle" finished-at="2024-07-08T22:24:36 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="forgotpassword()[pri:1, instance:mytest.Program9@302552ec]" started-at="2024-07-08T22:24:36 IST" name="forgotpassword" finished-at="2024-07-08T22:24:43 IST" duration-ms="7359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.Program9@302552ec]" started-at="2024-07-08T22:24:43 IST" name="tearDown" finished-at="2024-07-08T22:24:43 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.Program9 -->
+      <class name="mytest.Program4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytest.Program4@4d1c00d0]" started-at="2024-07-08T22:22:24 IST" name="setUp" finished-at="2024-07-08T22:22:35 IST" duration-ms="11167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:-1, instance:mytest.Program4@4d1c00d0]" started-at="2024-07-08T22:22:35 IST" name="verifyTitle" finished-at="2024-07-08T22:22:35 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="loginwithinvalidcredential()[pri:1, instance:mytest.Program4@4d1c00d0]" started-at="2024-07-08T22:22:35 IST" name="loginwithinvalidcredential" finished-at="2024-07-08T22:22:43 IST" duration-ms="8475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidcredential -->
+        <test-method signature="loginwithvalidcredential()[pri:2, instance:mytest.Program4@4d1c00d0]" started-at="2024-07-08T22:22:43 IST" name="loginwithvalidcredential" finished-at="2024-07-08T22:22:49 IST" duration-ms="6021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcredential -->
+        <test-method signature="searchproduct()[pri:3, instance:mytest.Program4@4d1c00d0]" started-at="2024-07-08T22:22:49 IST" name="searchproduct" finished-at="2024-07-08T22:22:51 IST" duration-ms="2026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method signature="scrolldown()[pri:4, instance:mytest.Program4@4d1c00d0]" started-at="2024-07-08T22:22:51 IST" name="scrolldown" finished-at="2024-07-08T22:22:53 IST" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrolldown -->
+        <test-method signature="selectproduct()[pri:5, instance:mytest.Program4@4d1c00d0]" started-at="2024-07-08T22:22:53 IST" name="selectproduct" finished-at="2024-07-08T22:22:55 IST" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectproduct -->
+        <test-method signature="addtocart()[pri:6, instance:mytest.Program4@4d1c00d0]" started-at="2024-07-08T22:22:55 IST" name="addtocart" finished-at="2024-07-08T22:23:00 IST" duration-ms="4563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method signature="proceedtocheckout()[pri:7, instance:mytest.Program4@4d1c00d0]" started-at="2024-07-08T22:23:00 IST" name="proceedtocheckout" finished-at="2024-07-08T22:23:07 IST" duration-ms="6963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedtocheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.Program4@4d1c00d0]" started-at="2024-07-08T22:23:07 IST" name="tearDown" finished-at="2024-07-08T22:23:07 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.Program4 -->
+      <class name="mytest.Program5">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytest.Program5@4b2bac3f]" started-at="2024-07-08T22:23:07 IST" name="setUp" finished-at="2024-07-08T22:23:15 IST" duration-ms="8176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:-1, instance:mytest.Program5@4b2bac3f]" started-at="2024-07-08T22:23:15 IST" name="verifyTitle" finished-at="2024-07-08T22:23:15 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="loginwithinvalidcredential()[pri:1, instance:mytest.Program5@4b2bac3f]" started-at="2024-07-08T22:23:15 IST" name="loginwithinvalidcredential" finished-at="2024-07-08T22:23:23 IST" duration-ms="8019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidcredential -->
+        <test-method signature="loginwithvalidcredential()[pri:2, instance:mytest.Program5@4b2bac3f]" started-at="2024-07-08T22:23:23 IST" name="loginwithvalidcredential" finished-at="2024-07-08T22:23:29 IST" duration-ms="5277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcredential -->
+        <test-method signature="searchproduct()[pri:3, instance:mytest.Program5@4b2bac3f]" started-at="2024-07-08T22:23:29 IST" name="searchproduct" finished-at="2024-07-08T22:23:31 IST" duration-ms="1945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method signature="scrolldown()[pri:4, instance:mytest.Program5@4b2bac3f]" started-at="2024-07-08T22:23:31 IST" name="scrolldown" finished-at="2024-07-08T22:23:33 IST" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrolldown -->
+        <test-method signature="selectproduct()[pri:5, instance:mytest.Program5@4b2bac3f]" started-at="2024-07-08T22:23:33 IST" name="selectproduct" finished-at="2024-07-08T22:23:34 IST" duration-ms="1660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectproduct -->
+        <test-method signature="addtocart()[pri:6, instance:mytest.Program5@4b2bac3f]" started-at="2024-07-08T22:23:34 IST" name="addtocart" finished-at="2024-07-08T22:23:39 IST" duration-ms="4596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method signature="proceedtocheckout()[pri:7, instance:mytest.Program5@4b2bac3f]" started-at="2024-07-08T22:23:39 IST" name="proceedtocheckout" finished-at="2024-07-08T22:23:46 IST" duration-ms="6785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedtocheckout -->
+        <test-method signature="proceedtopayment()[pri:8, instance:mytest.Program5@4b2bac3f]" started-at="2024-07-08T22:23:46 IST" name="proceedtopayment" finished-at="2024-07-08T22:23:58 IST" duration-ms="11938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedtopayment -->
+        <test-method signature="placeorder()[pri:9, instance:mytest.Program5@4b2bac3f]" started-at="2024-07-08T22:23:58 IST" name="placeorder" finished-at="2024-07-08T22:24:01 IST" duration-ms="3692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.Program5@4b2bac3f]" started-at="2024-07-08T22:24:01 IST" name="tearDown" finished-at="2024-07-08T22:24:02 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.Program5 -->
+      <class name="mytest.Program10">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytest.Program10@3d285d7e]" started-at="2024-07-08T22:24:43 IST" name="setUp" finished-at="2024-07-08T22:24:49 IST" duration-ms="5830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:-1, instance:mytest.Program10@3d285d7e]" started-at="2024-07-08T22:24:49 IST" name="verifyTitle" finished-at="2024-07-08T22:24:49 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="searchbox()[pri:1, instance:mytest.Program10@3d285d7e]" started-at="2024-07-08T22:24:49 IST" name="searchbox" finished-at="2024-07-08T22:24:51 IST" duration-ms="1630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbox -->
+        <test-method signature="verifysortdropdown()[pri:2, instance:mytest.Program10@3d285d7e]" started-at="2024-07-08T22:24:51 IST" name="verifysortdropdown" finished-at="2024-07-08T22:24:51 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysortdropdown -->
+        <test-method signature="verifyreviewform()[pri:3, instance:mytest.Program10@3d285d7e]" started-at="2024-07-08T22:24:51 IST" name="verifyreviewform" finished-at="2024-07-08T22:24:57 IST" duration-ms="5916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyreviewform -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.Program10@3d285d7e]" started-at="2024-07-08T22:24:57 IST" name="tearDown" finished-at="2024-07-08T22:24:57 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.Program10 -->
+      <class name="mytest.Program6">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytest.Program6@4e08711f]" started-at="2024-07-08T22:24:02 IST" name="setUp" finished-at="2024-07-08T22:24:06 IST" duration-ms="4788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:-1, instance:mytest.Program6@4e08711f]" started-at="2024-07-08T22:24:06 IST" name="verifyTitle" finished-at="2024-07-08T22:24:06 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="totallinksinhomepage()[pri:1, instance:mytest.Program6@4e08711f]" started-at="2024-07-08T22:24:06 IST" name="totallinksinhomepage" finished-at="2024-07-08T22:24:08 IST" duration-ms="1230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totallinksinhomepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.Program6@4e08711f]" started-at="2024-07-08T22:24:08 IST" name="tearDown" finished-at="2024-07-08T22:24:08 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.Program6 -->
+      <class name="mytest.Program7">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytest.Program7@bcec361]" started-at="2024-07-08T22:24:08 IST" name="setUp" finished-at="2024-07-08T22:24:14 IST" duration-ms="6036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:-1, instance:mytest.Program7@bcec361]" started-at="2024-07-08T22:24:14 IST" name="verifyTitle" finished-at="2024-07-08T22:24:14 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="checklogin_validation()[pri:1, instance:mytest.Program7@bcec361]" started-at="2024-07-08T22:24:14 IST" name="checklogin_validation" finished-at="2024-07-08T22:24:16 IST" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklogin_validation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.Program7@bcec361]" started-at="2024-07-08T22:24:16 IST" name="tearDown" finished-at="2024-07-08T22:24:16 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.Program7 -->
+      <class name="mytest.Program1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytest.Program1@15de0b3c]" started-at="2024-07-08T22:21:22 IST" name="setUp" finished-at="2024-07-08T22:21:36 IST" duration-ms="14546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:-1, instance:mytest.Program1@15de0b3c]" started-at="2024-07-08T22:21:36 IST" name="verifyTitle" finished-at="2024-07-08T22:21:36 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.Program1@15de0b3c]" started-at="2024-07-08T22:21:36 IST" name="tearDown" finished-at="2024-07-08T22:21:37 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.Program1 -->
+      <class name="mytest.Program2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytest.Program2@3bf7ca37]" started-at="2024-07-08T22:21:37 IST" name="setUp" finished-at="2024-07-08T22:21:44 IST" duration-ms="7410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:-1, instance:mytest.Program2@3bf7ca37]" started-at="2024-07-08T22:21:44 IST" name="verifyTitle" finished-at="2024-07-08T22:21:44 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="loginwithinvalidcredential()[pri:1, instance:mytest.Program2@3bf7ca37]" started-at="2024-07-08T22:21:44 IST" name="loginwithinvalidcredential" finished-at="2024-07-08T22:21:51 IST" duration-ms="7257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidcredential -->
+        <test-method signature="loginwithvalidcredential()[pri:2, instance:mytest.Program2@3bf7ca37]" started-at="2024-07-08T22:21:51 IST" name="loginwithvalidcredential" finished-at="2024-07-08T22:21:57 IST" duration-ms="5691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.Program2@3bf7ca37]" started-at="2024-07-08T22:21:57 IST" name="tearDown" finished-at="2024-07-08T22:21:57 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.Program2 -->
+      <class name="mytest.Program3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytest.Program3@79079097]" started-at="2024-07-08T22:21:57 IST" name="setUp" finished-at="2024-07-08T22:22:04 IST" duration-ms="6680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:-1, instance:mytest.Program3@79079097]" started-at="2024-07-08T22:22:04 IST" name="verifyTitle" finished-at="2024-07-08T22:22:04 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="loginwithinvalidcredential()[pri:1, instance:mytest.Program3@79079097]" started-at="2024-07-08T22:22:04 IST" name="loginwithinvalidcredential" finished-at="2024-07-08T22:22:12 IST" duration-ms="8052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidcredential -->
+        <test-method signature="loginwithvalidcredential()[pri:2, instance:mytest.Program3@79079097]" started-at="2024-07-08T22:22:12 IST" name="loginwithvalidcredential" finished-at="2024-07-08T22:22:18 IST" duration-ms="5480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcredential -->
+        <test-method signature="searchproduct()[pri:3, instance:mytest.Program3@79079097]" started-at="2024-07-08T22:22:18 IST" name="searchproduct" finished-at="2024-07-08T22:22:20 IST" duration-ms="2000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method signature="scrolldown()[pri:4, instance:mytest.Program3@79079097]" started-at="2024-07-08T22:22:20 IST" name="scrolldown" finished-at="2024-07-08T22:22:22 IST" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrolldown -->
+        <test-method signature="selectproduct()[pri:5, instance:mytest.Program3@79079097]" started-at="2024-07-08T22:22:22 IST" name="selectproduct" finished-at="2024-07-08T22:22:23 IST" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.Program3@79079097]" started-at="2024-07-08T22:22:23 IST" name="tearDown" finished-at="2024-07-08T22:22:24 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.Program3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
