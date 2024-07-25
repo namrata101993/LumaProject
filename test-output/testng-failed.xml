@@ -3,13 +3,26 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mytest.Program12">
+      <class name="runtask.Run_login">
         <methods>
-          <include name="removeitemfromcart"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="Placeorder"/>
+          <include name="stateDropdown"/>
+          <include name="Signout"/>
+          <include name="setup"/>
+          <include name="Clickonprofiledropdown"/>
+          <include name="Manageaddress"/>
+          <include name="Companyname"/>
+          <include name="Postcode"/>
+          <include name="Next"/>
+          <include name="Telephonenum"/>
+          <include name="Checkoutbutton"/>
+          <include name="State"/>
+          <include name="Country"/>
+          <include name="countryDropdown"/>
+          <include name="Cityname"/>
+          <include name="Street"/>
         </methods>
-      </class> <!-- mytest.Program12 -->
+      </class> <!-- runtask.Run_login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
